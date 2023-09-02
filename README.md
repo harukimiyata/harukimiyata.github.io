@@ -1,1 +1,185 @@
-# harukimiyata.github.io
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>TAMIYA</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-box">
+            <img src="img/logo.png" alt="">
+            <div class="header-nav">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="staff.html">STAFF</a></li>
+                    <li><a href="hair style.html">HAIR<span></span>STYLE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-nav2">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="staff.html">STAFF</a></li>
+                <li><a href="hair style.html">HAIR<span></span>STYLE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+            </ul>
+        </div>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <div class="mainvisual">
+            <img src="img/MaineVisual1.png" alt="">
+            <img src="img/MaineVisual2.png" alt="">
+            <img src="img/MaineVisual3.png" alt="">
+        </div>
+        <section class="salon">
+            <h2 class="sec-title">SALON</h2>
+            <div class="wrapper">
+                <div class="salon-text">
+                    <h3>TAMIYA</h3>
+                    <ul>
+                        <li>
+                            <p>当サロンは半個室のプライベートサロンであり、透明感のあるデザインカラーやトリートメント、グレイカラー、メンズカジュアルスタイルなどのスタイルを提供しています！</p>
+                        </li>
+                        <li>
+                            <p>当サロンの代表はカットコンテスト受賞歴を持つスタイリストであり、その他にも実力あるスタイリストが揃っておりますので、皆様の個性を引き出します！</p>
+                        </li>
+                        <li>
+                            <p>当サロンこだわりの空間と、スタイリストの技術により、美とリラックスを提供いたします！</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="salon-photo">
+                <img src="img/salon1.png" alt="">
+                <img src="img/salon2.png" alt="">
+                <img src="img/salon3.png" alt="">
+            </div>
+        </section>
+        <div class="wrapper">
+            <section class="staff">
+                <h2 class="sec-title">STAFF</h2>
+                <div class="staff-box">
+                    <div class="staff-item">
+                        <a href="#"><img src="img/stylist1.png" alt=""></a>
+                        <p>代表</p>
+                        <p>山田健太</p>
+                        <div class="web-box">
+                            <a href="">WEB予約する</a>
+                        </div>
+                    </div>
+                    <div class="staff-item">
+                        <a href="#"><img src="img/stylist2.png" alt=""></a>
+                        <p>スタイリスト</p>
+                        <p>小林美咲</p>
+                        <div class="web-box">
+                            <a href="">WEB予約する</a>
+                        </div>
+                    </div>
+                    <div class="staff-item">
+                        <a href="#"><img src="img/stylist3.png" alt=""></a>
+                        <p>スタイリスト</p>
+                        <p>佐藤隆太郎</p>
+                        <div class="web-box">
+                            <a href="">WEB予約する</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="all-staff">
+                    <a href="">スタッフ一覧へ</a>
+                </div>
+            </section>
+
+            <section class="staff">
+                <h2 class="sec-title">HAIR STYLE</h2>
+                <div class="staff-box">
+                    <div class="staff-item">
+                        <a href="#"><img src="img/shortcut.png" alt=""></a>
+                        <p>ショート</p>
+                        <p>担当　山田健太</p>
+                        <div class="web-box">
+                            <a href="">WEB予約する</a>
+                        </div>
+                    </div>
+                    <div class="staff-item">
+                        <a href="#"><img src="img/medium.png" alt=""></a>
+                        <p>ミディアム</p>
+                        <p>担当　小林美咲</p>
+                        <div class="web-box">
+                            <a href="">WEB予約する</a>
+                        </div>
+                    </div>
+                    <div class="staff-item">
+                        <a href="#"><img src="img/long.png" alt=""></a>
+                        <p>ロング</p>
+                        <p>担当　佐藤隆太郎</p>
+                        <div class="web-box">
+                            <a href="">WEB予約する</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="all-staff">
+                    <a href="">ヘアスタイル一覧へ</a>
+                </div>
+            </section>
+        </div>
+        <section class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51862.54742571415!2d139.65133036165918!3d35.6669246863183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb2eb3108d1%3A0xf11cd9b2395b6677!2z5p2x5Lqs6YO95riL6LC35Yy6!5e0!3m2!1sja!2sjp!4v1692704572515!5m2!1sja!2sjp"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-box">
+                <h2>TAMIYA</h2>
+                <dl>
+                    <dt>住所</dt>
+                    <dd>東京都渋谷区11-22-33</dd>
+                </dl>
+                <dl>
+                    <dt>営業時間</dt>
+                    <dd>10:00~22:00</dd>
+                </dl>
+                <dl>
+                    <dt>定休日</dt>
+                    <dd>毎週水曜日</dd>
+                </dl>
+                <dl>
+                    <dt>電話番号</dt>
+                    <dd>0000-11-2222</dd>
+                </dl>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-box">
+            <a href="https://www.instagram.com/"><img src="img/Instagram.png" alt=""></a>
+            <a href="https://twitter.com/"><img src="img/Facebook.png" alt=""></a>
+            <p>COPYRIGHT©<span></span>TAMIYA<span></span>ALLRIGHTReserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
